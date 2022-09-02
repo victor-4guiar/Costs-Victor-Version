@@ -3,17 +3,14 @@ import Home from './components/pages/Home';
 import Empresa from './components/pages/Empresa';
 import Contato from './components/pages/Contato';
 import NovPro from './components/pages/NovPro';
-import Container from './components/layout/Container'
+import Container from './components/layout/Container';
+import NavBar from './components/layout/NavBar';
+import Footer from './components/layout/Footer';
 
 function App() {
 	return (
 		<Router>
-			<div>
-				<Link to="/">Home</Link>
-				<Link to="/empresa">Empresa</Link>
-				<Link to="/contato">Contato</Link>
-				<Link to="/novo-projeto">Novo Projeto</Link>
-			</div>
+			<NavBar/>
 			
 			<Container customClass="min-height">
 				<Routes>
@@ -24,7 +21,7 @@ function App() {
 				</Routes>
 			</Container>
 			
-			<p>Footer</p>
+			<Footer />
 		</Router>
 	);
 }
