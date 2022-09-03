@@ -10,3 +10,13 @@
 	list-style: none;
 	align-items: center;
 }
+
+.item a{
+	margin-right: 1em;
+	color: #fff;
+	text-decoration: none;
+}
+
+.item a:hover{
+	color: #ffbb33;
+}
