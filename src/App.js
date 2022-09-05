@@ -3,8 +3,8 @@ import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import Home from './components/pages/Home';
 import Empresa from './components/pages/Empresa';
 import Contato from './components/pages/Contato';
-import NovPro from './components/pages/NovPro';
-import Projects from './components/pages/Projects';
+import NovPro from './components/pages/project/NovPro';
+import Projects from './components/pages/project/Projects';
 
 import Container from './components/layout/Container';
 import NavBar from './components/layout/NavBar';
